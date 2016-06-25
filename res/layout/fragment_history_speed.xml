@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/topSpeedView"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/topSpeedLabelTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/topSpeedLabelViewText"
+		style="@style/speedLabelTextView" />
+
+	<LinearLayout
+		android:id="@+id/topSpeedDigitsView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="7dp"
+		android:layout_gravity="center">
+
+		<ImageView
+			android:id="@+id/topDigitOneView"
+			style="@style/digitImageView"
+			android:src="@drawable/r_digit_0"
+			android:contentDescription="@string/empty" />
+
+		<ImageView
+			android:id="@+id/topDigitTwoView"
+			style="@style/digitImageView"
+			android:src="@drawable/r_digit_0"
+			android:contentDescription="@string/empty" />
+
+		<ImageView
+			android:id="@+id/topDigitThreeView"
+			style="@style/digitImageView"
+			android:src="@drawable/r_digit_0"
+			android:contentDescription="@string/empty" />
+
+	</LinearLayout>
+
+</LinearLayout>

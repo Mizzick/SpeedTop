@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="signInFailedMessage">Ошибка авторизации.</string>
+	<string name="signInSuccessMessage">Вы авторизованы в G+.</string>
+	<string name="pleaseSignUpMessage">Пожалуйста войдите в свой Google аккаунт!</string>
+
+	<string name="empty" />
+	<string name="unknownVehicleModel">Неизвестно</string>
+
+	<string name="yes">OK</string>
+	<string name="no">Отмена</string>
+
+	<!--Shares-->
+	<string name="shareSubjectText">Мой рекорд сегодня - {0}!</string>
+	<string name="shareMessageText">Мой рекорд сегодня - {0}! Кто быстрей?!? {1}</string>
+	<string name="shareDialogTitle">Поделиться</string>
+	<string name="shareErrorMessage">Ошибка</string>
+
+	<!--Menu-->
+	<string name="quitMenuItemTitle">Выход</string>
+	<string name="confirmFinishMessage">Вы действительно хотите выйти?</string>
+
+	<!--Main Activity-->
+	<string name="profileButtonText">Профиль</string>
+	<string name="shareButtonText">Поделиться</string>
+	<string name="leaderboardButtonText">Лидеры</string>
+	<string name="vehicleInfoTextViewDefaultText">Неизвестная машина (Другое)</string>
+	<string name="pleaseSigninLeaderboardMessage">Пожалуйста авторизуйтесь чтобы увидеть список лидеров.</string>
+	<string name="pleaseSigninTitle">Необходима авторизация в Google</string>
+	<string name="signinMessage">Войти</string>
+	<string name="cancelMessage">Отмена</string>
+	<string name="milesInHourPostText">миль/ч</string>
+	<string name="kmInHourPostText">км/ч</string>
+	<string name="gpsDisabledMessage">GPS недоступен</string>
+	<string name="gpsEnabledMessage">GPS доступен</string>
+	<string name="GpsSatelliteStatus">Установка связи со спутниками..</string>
+	<string name="currentSpeedLabelViewText">Сейчас</string>
+	<string name="tripSpeedLabelViewText">Сессия</string>
+	<string name="topSpeedLabelViewText">Максимум</string>
+	<string name="confirmResetTripSpeedMessage">Обнулить скорость сессии?</string>
+
+
+	<!--Preferences-->
+	<string name="profilePrefCategoryTitle">Профиль</string>
+	<string name="pilotNamePrefTitle">Ваше имя</string>
+	<string name="vehicleModelPrefTitle">Модель</string>
+	<string name="vehicleTypePrefTitle">Тип</string>
+	<string name="pref_vehicle_type_car">Автомобиль</string>
+	<string name="pref_vehicle_type_motorcycle">Мотоцикл</string>
+	<string name="pref_vehicle_type_train">Поезд</string>
+	<string name="pref_vehicle_type_airplane">Самолёт</string>
+	<string name="pref_vehicle_type_boat">Лодка</string>
+	<string name="pref_vehicle_type_running">Бегом</string>
+	<string name="pref_vehicle_type_other">Другое</string>
+	<string name="settingsPrefCategoryTitle">Настройки</string>
+	<string name="useMetricUnitsPrefTitle">км/мили?</string>
+	<string name="pilotDefaultName">Чебурашка</string>
+	<string name="vehicleModelDefaultName">Крокодил Гена</string>
+
+</resources>

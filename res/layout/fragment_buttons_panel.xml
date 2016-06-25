@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:weightSum="3">
+
+	<Button
+		android:id="@+id/profileButton"
+		style="@style/footerButton"
+		android:layout_weight="1"
+		android:drawableLeft="@drawable/icon_profile"
+		android:text="@string/profileButtonText" />
+
+	<Button
+		android:id="@+id/leaderboardButton"
+		style="@style/footerButton"
+		android:layout_weight="1"
+		android:drawableLeft="@drawable/icon_leaderboard"
+		android:text="@string/leaderboardButtonText" />
+
+	<Button
+		android:id="@+id/shareButton"
+		style="@style/footerButton"
+		android:layout_weight="1"
+		android:drawableLeft="@drawable/icon_share"
+		android:text="@string/shareButtonText" />
+
+</LinearLayout>

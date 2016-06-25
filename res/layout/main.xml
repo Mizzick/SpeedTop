@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:src="@drawable/background"
+		android:scaleType="centerCrop"
+		android:contentDescription="@string/empty" />
+
+	<LinearLayout
+		android:id="@+id/wrapperLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center">
+
+		<LinearLayout
+			android:id="@+id/speedometerView"
+			android:layout_width="fill_parent"
+			android:layout_height="0dp"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+			android:orientation="vertical"
+			android:layout_weight="1"
+			android:gravity="center">
+
+			<fragment
+				android:id="@+id/currentSpeedFragment"
+				android:name="com.mizzick.speedtop.ui.fragment.CurrentSpeedFragment"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"/>
+
+			<LinearLayout
+				android:id="@+id/speedsView"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				android:gravity="top"
+				android:orientation="horizontal"
+				android:weightSum="2"
+				android:baselineAligned="false">
+
+				<fragment
+					android:id="@+id/tripSpeedFragment"
+					android:name="com.mizzick.speedtop.ui.fragment.TripSpeedFragment"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"/>
+
+				<fragment
+					android:id="@+id/historySpeedFragment"
+					android:name="com.mizzick.speedtop.ui.fragment.HistorySpeedFragment"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+			<fragment
+				android:id="@+id/profileInfoFragment"
+				android:name="com.mizzick.speedtop.ui.fragment.ProfileInfoFragment"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginBottom="10dp"
+				android:layout_weight="0"/>
+
+		</LinearLayout>
+
+		<fragment
+			android:id="@+id/buttonsPanelFragment"
+			android:name="com.mizzick.speedtop.ui.fragment.ButtonsPanelFragment"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"/>
+
+	</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<TextView
+		android:id="@+id/currentSpeedLabelTextView"
+		android:text="@string/currentSpeedLabelViewText"
+		style="@style/speedLabelTextView" />
+
+	<LinearLayout
+		android:id="@+id/currentSpeedDigitsView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:gravity="center">
+
+		<ImageView
+			android:id="@+id/currentDigitOneView"
+			style="@style/digitImageView"
+			android:src="@drawable/digit_0"
+			android:contentDescription="@string/empty" />
+
+		<ImageView
+			android:id="@+id/currentDigitTwoView"
+			style="@style/digitImageView"
+			android:src="@drawable/digit_0"
+			android:contentDescription="@string/empty" />
+
+		<ImageView
+			android:id="@+id/currentDigitThreeView"
+			style="@style/digitImageView"
+			android:src="@drawable/digit_0"
+			android:contentDescription="@string/empty" />
+
+	</LinearLayout>
+
+</LinearLayout>

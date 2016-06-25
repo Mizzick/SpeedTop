@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="pref_vehicle_type_entries">
+		<item>@string/pref_vehicle_type_car</item>
+		<item>@string/pref_vehicle_type_motorcycle</item>
+		<item>@string/pref_vehicle_type_train</item>
+		<item>@string/pref_vehicle_type_airplane</item>
+		<item>@string/pref_vehicle_type_boat</item>
+		<item>@string/pref_vehicle_type_running</item>
+		<item>@string/pref_vehicle_type_other</item>
+	</string-array>
+	<string-array name="pref_vehicle_type_entry_values" >
+		<item>Car</item>
+		<item>Motorcycle</item>
+		<item>Train</item>
+		<item>Airplane</item>
+		<item>Boat</item>
+		<item>Running</item>
+		<item>Other</item>
+	</string-array>
+</resources>

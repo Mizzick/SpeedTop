@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory
+		android:title="@string/profilePrefCategoryTitle"
+		android:key="pref_key_storage_settings"
+		android:persistent="false">
+		<EditTextPreference
+			android:key="pref_pilot_name"
+			android:title="@string/pilotNamePrefTitle"
+			android:dialogTitle="@string/pilotNamePrefTitle"
+			android:defaultValue="@string/pilotDefaultName"/>
+		<ListPreference
+			android:key="pref_vehicle_type"
+			android:title="@string/vehicleTypePrefTitle"
+			android:dialogTitle="@string/vehicleTypePrefTitle"
+			android:entries="@array/pref_vehicle_type_entries"
+			android:entryValues="@array/pref_vehicle_type_entry_values"
+			android:defaultValue="Other" />
+		<EditTextPreference
+			android:key="pref_vehicle_name"
+			android:title="@string/vehicleModelPrefTitle"
+			android:dialogTitle="@string/vehicleModelPrefTitle"
+			android:defaultValue="@string/vehicleModelDefaultName"/>
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/settingsPrefCategoryTitle"
+		android:key="pref_key_storage_settings"
+		android:persistent="false">
+		<CheckBoxPreference
+			android:key="pref_use_metric_units"
+			android:title="@string/useMetricUnitsPrefTitle"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SpeedTop</string>
+	<string name="google_gms_app_id">388044705249</string>
+	<string name="app_market_link">https://play.google.com/store/apps/details?id=com.mizzick.speedtop</string>
+
+	<string name="signInFailedMessage">Sign in failed or wasn\'t needed.</string>
+	<string name="signInSuccessMessage">Sign in success.</string>
+	<string name="pleaseSignUpMessage">Please sign in with you google account!</string>
+
+	<string name="empty" />
+	<string name="unknownVehicleModel">Unknown</string>
+
+	<string name="yes">OK</string>
+	<string name="no">Cancel</string>
+
+	<!--Shares-->
+	<string name="shareSubjectText">Today I\'ve reached {0}!</string>
+	<string name="shareMessageText">Today I\'ve reached {0}! Try to beat me! {1}</string>
+	<string name="shareDialogTitle">Share</string>
+	<string name="shareErrorMessage">Error sharing post</string>
+
+	<!--Menu-->
+	<string name="quitMenuItemTitle">Quit</string>
+	<string name="confirmFinishMessage">Are you sure want to exit?</string>
+
+	<!--Main Activity-->
+	<string name="profileButtonText">Profile</string>
+	<string name="shareButtonText">Share</string>
+	<string name="leaderboardButtonText">Leaderboard</string>
+	<string name="vehicleInfoTextViewDefaultText">Unknown vehicle (Other)</string>
+	<string name="pleaseSigninLeaderboardMessage">Please sign in to see the leaderboard.</string>
+	<string name="pleaseSigninTitle">Google authorization required</string>
+	<string name="signinMessage">Sign in</string>
+	<string name="cancelMessage">Cancel</string>
+	<string name="milesInHourPostText">mph</string>
+	<string name="kmInHourPostText">km/h</string>
+	<string name="gpsDisabledMessage">GPS is disabled</string>
+	<string name="gpsEnabledMessage">GPS is enabled</string>
+	<string name="GpsSatelliteStatus">Connecting with satellites..</string>
+	<string name="currentSpeedLabelViewText">Current speed</string>
+	<string name="tripSpeedLabelViewText">Session maximum</string>
+	<string name="topSpeedLabelViewText">History maximum</string>
+	<string name="confirmResetTripSpeedMessage">Reset session maximum speed?</string>
+
+
+	<!--Preferences-->
+	<string name="profilePrefCategoryTitle">Profile</string>
+	<string name="pilotNamePrefTitle">Pilot name</string>
+	<string name="vehicleModelPrefTitle">Vehicle model</string>
+	<string name="vehicleTypePrefTitle">Vehicle type</string>
+	<string name="pref_vehicle_type_car">Car</string>
+	<string name="pref_vehicle_type_motorcycle">Motorcycle</string>
+	<string name="pref_vehicle_type_train">Train</string>
+	<string name="pref_vehicle_type_airplane">Airplane</string>
+	<string name="pref_vehicle_type_boat">Boat</string>
+	<string name="pref_vehicle_type_running">Running</string>
+	<string name="pref_vehicle_type_other">Other</string>
+	<string name="settingsPrefCategoryTitle">Settings</string>
+	<string name="useMetricUnitsPrefTitle">Use metric units?</string>
+	<string name="pilotDefaultName">Unknown pilot</string>
+	<string name="vehicleModelDefaultName">Unknown vehicle</string>
+
+</resources>

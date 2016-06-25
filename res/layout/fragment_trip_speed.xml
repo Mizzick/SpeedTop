@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/tripSpeedView"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/tripSpeedLabelTextView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/tripSpeedLabelViewText"
+		style="@style/speedLabelTextView" />
+
+	<LinearLayout
+		android:id="@+id/tripSpeedDigitsView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="7dp"
+		android:layout_gravity="center">
+
+		<ImageView
+			android:id="@+id/tripDigitOneView"
+			style="@style/digitImageView"
+			android:src="@drawable/y_digit_0"
+			android:contentDescription="@string/empty" />
+
+		<ImageView
+			android:id="@+id/tripDigitTwoView"
+			style="@style/digitImageView"
+			android:src="@drawable/y_digit_0"
+			android:contentDescription="@string/empty" />
+
+		<ImageView
+			android:id="@+id/tripDigitThreeView"
+			style="@style/digitImageView"
+			android:src="@drawable/y_digit_0"
+			android:contentDescription="@string/empty" />
+
+	</LinearLayout>
+
+</LinearLayout>

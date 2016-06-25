@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="SpeedTopTheme" parent="android:Theme.Holo">
+		<item name="android:actionBarStyle">@style/speedTopActionBar</item>
+	</style>
+
+	<!-- ActionBar styles -->
+	<style name="speedTopActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+		<item name="android:titleTextStyle">@style/titleTextActionBar</item>
+		<item name="android:subtitleTextStyle">@style/subtitleTextActionBar</item>
+	</style>
+
+	<style name="titleTextActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<style name="subtitleTextActionBar" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse">
+		<item name="android:textColor">@android:color/white</item>
+	</style>
+
+	<!--Main-->
+	<style name="footerButton">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">2dp</item>
+		<item name="android:layout_marginRight">2dp</item>
+		<item name="android:textSize">11sp</item>
+		<item name="android:textAllCaps">true</item>
+	</style>
+
+	<style name="speedLabelTextView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_gravity">center</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+		<item name="android:textAllCaps">true</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+
+	<style name="digitImageView">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">3dp</item>
+		<item name="android:layout_marginRight">3dp</item>
+		<item name="android:contentDescription">@string/empty</item>
+	</style>
+
+</resources>
